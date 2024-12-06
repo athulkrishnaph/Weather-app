@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+body {
+  background-image: url(https://cdn5.f-cdn.com/contestentries/329593/18088126/5699feb841990_thumb900.jpg);
+  background-size: cover;
+}
+input::placeholder {
+  color: black;
+}
+input {
+  background-color: rgba(255, 255, 255, 0.362);
+  border: 1px solid;
+}
+.weather {
+  width: 40vw;
+  border: 3px solid white;
+  height: 80vh;
+  border-radius: 2%;
+}
+.search {
+  height: 50px;
+  width: 100%;
+  gap: 10px;
+}
+#loc {
+  width: 90%;
+}
+.data1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 5%;
+  background-color: rgba(255, 255, 255, 0.362);
+}
+.data1 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 5%;
+  background-color: rgba(255, 255, 255, 0.362);
+}
+i:hover{
+    color: rgb(255, 255, 255);
+}
