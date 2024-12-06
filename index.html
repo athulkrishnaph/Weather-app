@@ -94,5 +94,12 @@ function displayWeather(data) {
   document.querySelector(".dd3").innerHTML = `<h4>Cloudiness</h4> ${data.clouds.all}%`;
   document.querySelector(".dd4").innerHTML = `<h4>Wind Speed</h4> ${data.wind.speed} m/s`;
 }
+loc.addEventListener('keydown', (event) => {
+  if (event.key === 'Enter') {
+    event.preventDefault();
+    handleSearch();
+  }
+});
+
   </script>
 </html>
